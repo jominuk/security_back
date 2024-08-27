@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    ##    url: jdbc:mysql://host.docker.internal:3306/parang?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/homedb?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: home
+    password: 1245
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+
+logging:
+  level:
+    com.vowing.parang: debug
+    org.hibernate:
+      type.descriptor.sql: trace #show parameter binding
+      SQL: DEBUG
+
+jwt:
+  AccessSecret : askdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkd
+  AccessExpiration : 10000 # 10? #7200000 # 2??
+  RefreshExpiration : 86400000 # ??
