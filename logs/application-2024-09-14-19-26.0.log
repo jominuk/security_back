@@ -1,0 +1,103 @@
+2024-09-14 19:26:40.291  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-14 19:26:40.291  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-09-14 19:26:40.306  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-09-14 19:26:43.998  c.s.s.SecurityApplication - Starting SecurityApplication using Java 21.0.4 with PID 9512 (C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back\out\production\classes started by jomin in C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back) 
+2024-09-14 19:26:43.998  c.s.s.SecurityApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-09-14 19:26:44.797  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-14 19:26:44.885  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces. 
+2024-09-14 19:26:45.519  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-09-14 19:26:45.519  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-14 19:26:45.535  o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-09-14 19:26:45.535  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28] 
+2024-09-14 19:26:45.583  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-09-14 19:26:45.583  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1518 ms 
+2024-09-14 19:26:45.741  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-14 19:26:45.804  o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-14 19:26:45.836  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-09-14 19:26:46.207  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-14 19:26:46.223  c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-09-14 19:26:46.619  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@304744a1 
+2024-09-14 19:26:46.619  c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-09-14 19:26:46.667  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause' 
+2024-09-14 19:26:46.699  o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@64ed18ec) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1dfcf85a) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@590dea35) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6550ce46) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@69f69078) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@13b29b34) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@25589735) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@46994f26) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1bb172dd) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1cdd31a4) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7dddfc35) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@71316cd7) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6106dfb6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@14239223) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@68df8c6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7c206b14) 
+2024-09-14 19:26:46.715  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2b8cf049) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2336cd91) 
+2024-09-14 19:26:47.335  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-14 19:26:47.353  o.h.SQL - 
+    drop table if exists list 
+2024-09-14 19:26:47.416  o.h.SQL - 
+    drop table if exists member 
+2024-09-14 19:26:47.416  o.h.SQL - 
+    drop table if exists tokens 
+2024-09-14 19:26:47.432  o.h.SQL - 
+    create table list (
+        created_at datetime(6) not null,
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        content varchar(255) not null,
+        title varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB 
+2024-09-14 19:26:47.448  o.h.SQL - 
+    create table member (
+        is_active bit not null,
+        created_at datetime(6) not null,
+        deactivated_at datetime(6),
+        id bigint not null auto_increment,
+        updated_at datetime(6),
+        memo varchar(255),
+        password varchar(255) not null,
+        user_id varchar(255) not null,
+        role enum ('ADMIN','USER') not null,
+        primary key (id)
+    ) engine=InnoDB 
+2024-09-14 19:26:47.448  o.h.SQL - 
+    create table tokens (
+        id bigint not null auto_increment,
+        refresh_token varchar(255) not null,
+        user_id varchar(255) not null,
+        primary key (id)
+    ) engine=InnoDB 
+2024-09-14 19:26:47.467  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-14 19:26:47.907  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name customAuthenticationProvider 
+2024-09-14 19:26:47.923  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. 
+2024-09-14 19:26:47.939  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-14 19:26:48.415  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-14 19:26:48.435  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-09-14 19:26:48.447  c.s.s.SecurityApplication - Started SecurityApplication in 5.184 seconds (process running for 5.627) 
+2024-09-14 19:26:58.270  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-14 19:26:58.270  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-09-14 19:26:58.270  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2024-09-14 19:26:58.352  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-14 19:26:58.538  c.s.s.d.m.c.MemberController - Received request to save member with details: MemberDto(id=null, userId=jominuk, password=123, memo=123, createdAt=null) 
+2024-09-14 19:26:58.791  c.s.s.d.m.s.MemberService - Processing save request for user ID: jominuk 
+2024-09-14 19:26:59.044  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:26:59.136  o.h.SQL - 
+    insert 
+    into
+        member
+        (created_at, deactivated_at, is_active, memo, password, role, updated_at, user_id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?) 
+2024-09-14 19:26:59.181  c.s.s.d.m.s.MemberService - Successfully saved member with user ID: jominuk 

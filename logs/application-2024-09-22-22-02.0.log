@@ -1,0 +1,339 @@
+2024-09-22 22:02:29.180  c.s.s.SecurityApplication - Starting SecurityApplication using Java 21.0.4 with PID 18084 (C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back\out\production\classes started by jomin in C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back) 
+2024-09-22 22:02:29.189  c.s.s.SecurityApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-09-22 22:02:30.138  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-22 22:02:30.233  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces. 
+2024-09-22 22:02:31.084  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-09-22 22:02:31.099  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-22 22:02:31.115  o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-09-22 22:02:31.115  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28] 
+2024-09-22 22:02:31.194  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-09-22 22:02:31.194  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms 
+2024-09-22 22:02:31.414  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-22 22:02:31.477  o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-22 22:02:31.525  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-09-22 22:02:31.902  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-22 22:02:31.934  c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-09-22 22:02:32.394  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d1cdeb1 
+2024-09-22 22:02:32.394  c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-09-22 22:02:32.441  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause' 
+2024-09-22 22:02:32.457  o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5af40e45) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1a06602f) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@46591e98) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5b6cc344) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2110684a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@83e635f) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@61d011e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3b56947a) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1926f962) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@62794582) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@c82ad22) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3f80d8c) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2d3b0978) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5c60c08) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1cb44a2f) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5fe3b058) 
+2024-09-22 22:02:32.473  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2a661215) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1f75fd1d) 
+2024-09-22 22:02:33.306  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-22 22:02:33.952  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-22 22:02:34.395  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService 
+2024-09-22 22:02:34.426  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-22 22:02:35.075  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-22 22:02:35.091  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-09-22 22:02:35.106  c.s.s.SecurityApplication - Started SecurityApplication in 6.816 seconds (process running for 7.442) 
+2024-09-22 22:02:39.987  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-22 22:02:39.987  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-09-22 22:02:39.987  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2024-09-22 22:02:40.015  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-22 22:02:40.186  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:40.322  o.h.SQL - 
+    select
+        te1_0.id,
+        te1_0.refresh_token,
+        te1_0.user_id 
+    from
+        tokens te1_0 
+    where
+        te1_0.user_id=? 
+2024-09-22 22:02:40.334  o.h.SQL - 
+    update
+        tokens 
+    set
+        refresh_token=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-22 22:02:40.379  c.s.s.d.m.c.MemberController - User role is null for user: jominuk 
+2024-09-22 22:02:42.131  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-22 22:02:42.189  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:42.206  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.user_id,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+    left join
+        member m1_0 
+            on m1_0.id=le1_0.user_id 
+    where
+        m1_0.user_id=? 
+2024-09-22 22:02:42.221  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-22 22:02:43.464  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-22 22:02:43.472  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:43.499  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk 
+2024-09-22 22:02:43.499  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:43.499  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk 
+2024-09-22 22:02:45.522  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-22 22:02:45.530  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:45.538  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.user_id,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+    left join
+        member m1_0 
+            on m1_0.id=le1_0.user_id 
+    where
+        m1_0.user_id=? 
+2024-09-22 22:02:45.538  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-22 22:02:48.403  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-22 22:02:48.405  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:48.464  o.h.SQL - 
+    select
+        te1_0.id,
+        te1_0.refresh_token,
+        te1_0.user_id 
+    from
+        tokens te1_0 
+    where
+        te1_0.user_id=? 
+2024-09-22 22:02:48.472  o.h.SQL - 
+    update
+        tokens 
+    set
+        refresh_token=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-22 22:02:48.510  c.s.s.d.m.c.MemberController - User role is null for user: jominuk1 
+2024-09-22 22:02:49.682  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-22 22:02:49.686  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:49.689  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.user_id,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+    left join
+        member m1_0 
+            on m1_0.id=le1_0.user_id 
+    where
+        m1_0.user_id=? 
+2024-09-22 22:02:49.694  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-22 22:02:51.017  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-22 22:02:51.026  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:57.694  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-22 22:02:57.697  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-22 22:02:57.704  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.user_id,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+    left join
+        member m1_0 
+            on m1_0.id=le1_0.user_id 
+    where
+        m1_0.user_id=? 
+2024-09-22 22:02:57.704  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 

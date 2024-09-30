@@ -1,0 +1,230 @@
+2024-09-14 19:27:02.424  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-14 19:27:02.443  c.s.s.f.CustomAuthenticationProvider - Authentication attempt for username: jominuk 
+2024-09-14 19:27:02.443  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:02.754  o.h.SQL - 
+    select
+        te1_0.id,
+        te1_0.refresh_token,
+        te1_0.user_id 
+    from
+        tokens te1_0 
+    where
+        te1_0.user_id=? 
+2024-09-14 19:27:02.759  o.h.SQL - 
+    insert 
+    into
+        tokens
+        (refresh_token, user_id) 
+    values
+        (?, ?) 
+2024-09-14 19:27:02.808  c.s.s.f.CustomAuthenticationProvider - Authentication successful for username: jominuk 
+2024-09-14 19:27:03.676  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-14 19:27:03.808  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:03.826  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+2024-09-14 19:27:03.849  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-14 19:27:03.857  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:03.871  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+2024-09-14 19:27:04.434  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-14 19:27:04.444  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:04.472  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:04.490  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-14 19:27:04.497  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:04.507  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:05.102  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-14 19:27:05.110  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:05.150  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-14 19:27:05.158  c.s.s.d.m.s.MemberService - Deactivated member with user ID 
+2024-09-14 19:27:05.175  o.h.SQL - 
+    update
+        member 
+    set
+        deactivated_at=?,
+        is_active=?,
+        memo=?,
+        password=?,
+        role=?,
+        updated_at=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-14 19:27:07.732  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-14 19:27:07.732  c.s.s.f.CustomAuthenticationProvider - Authentication attempt for username: jominuk 
+2024-09-14 19:27:07.732  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:07.741  c.s.s.f.CustomAuthenticationProvider - Authentication failed for username: jominuk. Reason: 아이디가 존재하지 않습니다. 
+2024-09-14 19:27:09.980  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-14 19:27:09.980  c.s.s.f.CustomAuthenticationProvider - Authentication attempt for username: jominuk 
+2024-09-14 19:27:09.988  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-14 19:27:09.992  c.s.s.f.CustomAuthenticationProvider - Authentication failed for username: jominuk. Reason: 아이디가 존재하지 않습니다. 
+2024-09-14 19:27:44.855  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-14 19:27:44.855  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-09-14 19:27:44.871  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 

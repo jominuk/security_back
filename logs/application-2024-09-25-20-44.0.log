@@ -1,0 +1,288 @@
+2024-09-25 20:44:19.741  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:19.750  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:19.750  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk1 
+2024-09-25 20:44:19.750  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:19.762  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk1 
+2024-09-25 20:44:23.309  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:23.309  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:23.309  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk1 
+2024-09-25 20:44:23.309  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:23.309  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk1 
+2024-09-25 20:44:24.089  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:24.102  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:24.105  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk1 
+2024-09-25 20:44:24.105  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:24.105  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk1 
+2024-09-25 20:44:25.899  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:25.904  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:25.904  c.s.s.d.m.c.MemberController - id 번호는 ? : 2 
+2024-09-25 20:44:25.977  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-25 20:44:25.977  o.h.SQL - 
+    update
+        member 
+    set
+        deactivated_at=?,
+        is_active=?,
+        memo=?,
+        password=?,
+        role=?,
+        updated_at=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-25 20:44:37.180  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:37.182  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:37.187  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk1 
+2024-09-25 20:44:37.187  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:37.187  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk1 
+2024-09-25 20:44:37.870  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:37.870  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:37.876  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk1 
+2024-09-25 20:44:37.876  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:37.876  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk1 
+2024-09-25 20:44:40.149  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:40.154  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:40.154  c.s.s.d.m.c.MemberController - id 번호는 ? : 2 
+2024-09-25 20:44:40.218  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-25 20:44:40.218  o.h.SQL - 
+    update
+        member 
+    set
+        deactivated_at=?,
+        is_active=?,
+        memo=?,
+        password=?,
+        role=?,
+        updated_at=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-25 20:44:48.319  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-25 20:44:48.319  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:48.335  c.s.s.d.m.c.MemberController - 정보 진입 유저 ID: jominuk1 
+2024-09-25 20:44:48.335  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-25 20:44:48.335  c.s.s.d.m.s.MemberService - Service 회원정보 ID : jominuk1 

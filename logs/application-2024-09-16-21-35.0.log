@@ -1,0 +1,310 @@
+2024-09-16 21:35:16.672  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:16.680  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:16.688  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:16.688  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:16.696  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:16.696  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:16.696  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:16.704  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:16.704  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:19.381  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:19.387  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:19.387  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:19.387  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:19.395  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:19.397  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:19.397  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:19.403  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:19.403  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:35.100  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:35.101  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:35.105  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:36.425  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:36.432  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:36.432  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:44.116  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:44.116  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:44.125  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:55.711  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-16 21:35:55.711  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-16 21:35:55.711  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 

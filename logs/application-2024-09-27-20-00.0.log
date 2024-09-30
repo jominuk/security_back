@@ -1,0 +1,83 @@
+2024-09-27 20:00:26.779  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token 
+2024-09-27 20:00:26.790  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-27 20:00:26.790  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.deactivated_at,
+        le1_0.image_url,
+        le1_0.is_active,
+        le1_0.user_id,
+        le1_0.title,
+        le1_0.updated_at 
+    from
+        list le1_0 
+    left join
+        member m1_0 
+            on m1_0.id=le1_0.user_id 
+    where
+        m1_0.user_id=? 
+2024-09-27 20:00:26.795  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.id=? 
+2024-09-27 20:00:59.031  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-27 20:00:59.031  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.deactivated_at,
+        me1_0.is_active,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.updated_at,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-27 20:00:59.093  o.h.SQL - 
+    select
+        te1_0.id,
+        te1_0.refresh_token,
+        te1_0.user_id 
+    from
+        tokens te1_0 
+    where
+        te1_0.user_id=? 
+2024-09-27 20:00:59.093  o.h.SQL - 
+    update
+        tokens 
+    set
+        refresh_token=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-27 20:00:59.146  c.s.s.d.m.c.MemberController - User role is null for user: jominuk1 

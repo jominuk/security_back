@@ -1,0 +1,119 @@
+2024-09-12 23:53:01.713  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-12 23:53:01.713  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-09-12 23:53:01.729  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-09-12 23:53:04.668  c.s.s.SecurityApplication - Starting SecurityApplication using Java 21.0.4 with PID 15084 (C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back\out\production\classes started by jomin in C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back) 
+2024-09-12 23:53:04.687  c.s.s.SecurityApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-09-12 23:53:05.225  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-12 23:53:05.289  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces. 
+2024-09-12 23:53:05.744  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-09-12 23:53:05.760  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-12 23:53:05.760  o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-09-12 23:53:05.760  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28] 
+2024-09-12 23:53:05.818  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-09-12 23:53:05.818  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1097 ms 
+2024-09-12 23:53:05.943  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-12 23:53:05.990  o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-12 23:53:06.021  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-09-12 23:53:06.272  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-12 23:53:06.287  c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-09-12 23:53:06.616  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75b363c3 
+2024-09-12 23:53:06.616  c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-09-12 23:53:06.647  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause' 
+2024-09-12 23:53:06.663  o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2db461b5) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c79c5ec) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@34eaf9c1) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5bbf744b) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@55881f40) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@474ce6b8) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@248b2b61) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4b61e97) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@11d1735e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@31082efa) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4ca5cb99) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7853363c) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6282f1eb) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@120d6cbf) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@70169464) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1115be8c) 
+2024-09-12 23:53:06.678  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@64ed18ec) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@1dfcf85a) 
+2024-09-12 23:53:07.258  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-12 23:53:07.775  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-12 23:53:08.116  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name customAuthenticationProvider 
+2024-09-12 23:53:08.116  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. 
+2024-09-12 23:53:08.148  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-12 23:53:08.497  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-12 23:53:08.513  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-09-12 23:53:08.528  c.s.s.SecurityApplication - Started SecurityApplication in 4.374 seconds (process running for 4.706) 
+2024-09-12 23:53:18.816  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-09-12 23:53:18.816  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet' 
+2024-09-12 23:53:18.816  o.s.w.s.DispatcherServlet - Completed initialization in 0 ms 
+2024-09-12 23:53:18.891  c.s.s.f.JwtAuthenticationFilter - Authorization header: Header not present 
+2024-09-12 23:53:18.891  c.s.s.f.JwtAuthenticationFilter - Authorization header is either empty or does not start with 'Bearer ' 
+2024-09-12 23:53:19.081  c.s.s.f.CustomAuthenticationProvider - Authentication attempt for username: jominuk 
+2024-09-12 23:53:19.366  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-12 23:53:19.783  o.h.SQL - 
+    select
+        te1_0.id,
+        te1_0.refresh_token,
+        te1_0.user_id 
+    from
+        tokens te1_0 
+    where
+        te1_0.user_id=? 
+2024-09-12 23:53:19.829  o.h.SQL - 
+    update
+        tokens 
+    set
+        refresh_token=?,
+        user_id=? 
+    where
+        id=? 
+2024-09-12 23:53:19.884  c.s.s.f.CustomAuthenticationProvider - Authentication successful for username: jominuk 
+2024-09-12 23:53:21.138  c.s.s.f.JwtAuthenticationFilter - Authorization header: Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiJqb21pbnVrIiwiaWF0IjoxNzI2MTUyNzk5LCJleHAiOjE3MjYyMzkxOTl9.8ATmJT_-1BjSQgFApXcSFKXFkt-gGe_Lb3RLDKmV17EBdIPYom1qooH3jTonenS_7mNNrNLmsQpOfOKEK-0i5A 
+2024-09-12 23:53:21.138  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token: eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiJqb21pbnVrIiwiaWF0IjoxNzI2MTUyNzk5LCJleHAiOjE3MjYyMzkxOTl9.8ATmJT_-1BjSQgFApXcSFKXFkt-gGe_Lb3RLDKmV17EBdIPYom1qooH3jTonenS_7mNNrNLmsQpOfOKEK-0i5A 
+2024-09-12 23:53:21.284  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-12 23:53:21.305  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.title 
+    from
+        list le1_0 
+2024-09-12 23:53:21.333  c.s.s.f.JwtAuthenticationFilter - Authorization header: Bearer eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiJqb21pbnVrIiwiaWF0IjoxNzI2MTUyNzk5LCJleHAiOjE3MjYyMzkxOTl9.8ATmJT_-1BjSQgFApXcSFKXFkt-gGe_Lb3RLDKmV17EBdIPYom1qooH3jTonenS_7mNNrNLmsQpOfOKEK-0i5A 
+2024-09-12 23:53:21.337  c.s.s.f.JwtAuthenticationFilter - Extracted JWT token: eyJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiJqb21pbnVrIiwiaWF0IjoxNzI2MTUyNzk5LCJleHAiOjE3MjYyMzkxOTl9.8ATmJT_-1BjSQgFApXcSFKXFkt-gGe_Lb3RLDKmV17EBdIPYom1qooH3jTonenS_7mNNrNLmsQpOfOKEK-0i5A 
+2024-09-12 23:53:21.345  o.h.SQL - 
+    select
+        me1_0.id,
+        me1_0.created_at,
+        me1_0.memo,
+        me1_0.password,
+        me1_0.role,
+        me1_0.user_id 
+    from
+        member me1_0 
+    where
+        me1_0.user_id=? 
+2024-09-12 23:53:21.352  o.h.SQL - 
+    select
+        le1_0.id,
+        le1_0.content,
+        le1_0.created_at,
+        le1_0.title 
+    from
+        list le1_0 

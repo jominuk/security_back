@@ -1,0 +1,39 @@
+2024-09-12 23:54:20.371  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-12 23:54:20.371  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-09-12 23:54:20.387  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-09-12 23:54:23.424  c.s.s.SecurityApplication - Starting SecurityApplication using Java 21.0.4 with PID 12944 (C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back\out\production\classes started by jomin in C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back) 
+2024-09-12 23:54:23.441  c.s.s.SecurityApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-09-12 23:54:24.006  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-12 23:54:24.053  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces. 
+2024-09-12 23:54:24.529  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-09-12 23:54:24.529  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-12 23:54:24.545  o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-09-12 23:54:24.545  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28] 
+2024-09-12 23:54:24.592  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-09-12 23:54:24.592  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1110 ms 
+2024-09-12 23:54:24.717  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-12 23:54:24.764  o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-12 23:54:24.780  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-09-12 23:54:25.038  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-12 23:54:25.069  c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-09-12 23:54:25.335  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ea3a513 
+2024-09-12 23:54:25.335  c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-09-12 23:54:25.382  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause' 
+2024-09-12 23:54:25.382  o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5c79c5ec) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@34eaf9c1) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5bbf744b) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@55881f40) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@474ce6b8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@248b2b61) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4b61e97) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@11d1735e) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@31082efa) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4ca5cb99) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7853363c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6282f1eb) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@120d6cbf) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@70169464) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1115be8c) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@64ed18ec) 
+2024-09-12 23:54:25.413  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1dfcf85a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@590dea35) 
+2024-09-12 23:54:26.055  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-09-12 23:54:26.588  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-12 23:54:26.966  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name customAuthenticationProvider 
+2024-09-12 23:54:26.966  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. 
+2024-09-12 23:54:26.982  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-09-12 23:54:27.349  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-09-12 23:54:27.365  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-09-12 23:54:27.365  c.s.s.SecurityApplication - Started SecurityApplication in 4.446 seconds (process running for 4.786) 

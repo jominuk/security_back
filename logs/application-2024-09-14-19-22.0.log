@@ -1,0 +1,31 @@
+2024-09-14 19:22:53.495  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-09-14 19:22:53.495  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-09-14 19:22:53.495  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-09-14 19:22:57.417  c.s.s.SecurityApplication - Starting SecurityApplication using Java 21.0.4 with PID 10940 (C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back\out\production\classes started by jomin in C:\Users\jomin\OneDrive\바탕 화면\reservation\sns_reservation_back) 
+2024-09-14 19:22:57.423  c.s.s.SecurityApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-09-14 19:22:58.208  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-09-14 19:22:58.286  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 3 JPA repository interfaces. 
+2024-09-14 19:22:58.900  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-09-14 19:22:58.904  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-09-14 19:22:58.916  o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-09-14 19:22:58.916  o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28] 
+2024-09-14 19:22:58.963  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-09-14 19:22:58.963  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1477 ms 
+2024-09-14 19:22:59.122  o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-09-14 19:22:59.170  o.h.Version - HHH000412: Hibernate ORM core version 6.5.2.Final 
+2024-09-14 19:22:59.216  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-09-14 19:22:59.530  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-09-14 19:22:59.561  c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-09-14 19:22:59.875  c.z.h.p.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d7d8911 
+2024-09-14 19:22:59.875  c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-09-14 19:22:59.922  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'where clause' 
+2024-09-14 19:22:59.937  o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-09-14 19:22:59.953  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@46994f26) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1bb172dd) 
+2024-09-14 19:22:59.953  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1cdd31a4) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7dddfc35) 
+2024-09-14 19:22:59.953  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@71316cd7) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6106dfb6) 
+2024-09-14 19:22:59.953  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@14239223) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@68df8c6) 
+2024-09-14 19:22:59.969  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7c206b14) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2b8cf049) 
+2024-09-14 19:22:59.969  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@2336cd91) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4a944af9) 
+2024-09-14 19:22:59.969  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3593e074) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@79d14037) 
+2024-09-14 19:22:59.969  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6c1e40d9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4b50c21) 
+2024-09-14 19:22:59.969  o.h.t.d.s.s.DdlTypeRegistry - addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2e0fdc83) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5dacf18d) 
