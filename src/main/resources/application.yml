@@ -26,5 +26,17 @@ logging:
 
 jwt:
   AccessSecret : askdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkdaskdjnasjkd
-  AccessExpiration : 10000 # 10? #7200000 # 2??
+  AccessExpiration : 86400000 # 24 hours #30000 # 30초
   RefreshExpiration : 86400000 # ??
+
+cloud:
+  aws:
+    credentials:
+      accessKey: ${accessKey}
+      secretKey: ${secretKey}
+    s3:
+      bucket: s3jominuk
+    region:
+      static: ap-northeast-2
+    stack:
+      auto: false
